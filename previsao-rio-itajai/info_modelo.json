@@ -1,0 +1,15 @@
+{
+  "melhor_modelo": "Modelo 1 (Todas)",
+  "features_utilizadas": [
+    "N\u00edvelItuporanga",
+    "ChuvaItuporanga",
+    "N\u00edvelTai\u00f3",
+    "ChuvaTai\u00f3"
+  ],
+  "metricas": {
+    "RMSE": 29.271481502625956,
+    "MAE": 18.54899312511884,
+    "R2": 0.9572045748376021
+  },
+  "variavel_alvo": "NivelRiodoSul"
+}
