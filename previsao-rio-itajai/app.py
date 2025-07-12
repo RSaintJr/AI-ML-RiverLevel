@@ -16,7 +16,7 @@ try:
     modelo = joblib.load('previsao-rio-itajai/modelo_rio_final.pkl')
     scaler = joblib.load('previsao-rio-itajai/scaler_final.pkl')
 
-    with open('info_modelo.json', 'r') as f:
+    with open('previsao-rio-itajai/info_modelo.json', 'r') as f:
         info = json.load(f)
 
     features = info['features_utilizadas']
