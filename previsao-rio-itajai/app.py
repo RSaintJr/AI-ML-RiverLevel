@@ -13,8 +13,8 @@ e nível do rio em Rio do Sul para prever o nível do rio com base nas condiçõ
 """)
 
 try:
-    modelo = joblib.load('modelo_rio_final.pkl')
-    scaler = joblib.load('scaler_final.pkl')
+    modelo = joblib.load('previsao-rio-itajai/modelo_rio_final.pkl')
+    scaler = joblib.load('previsao-rio-itajai/scaler_final.pkl')
 
     with open('info_modelo.json', 'r') as f:
         info = json.load(f)
